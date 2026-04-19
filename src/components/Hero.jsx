@@ -123,10 +123,11 @@ const Hero = () => {
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div 
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: 'auto', opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              className="mobile-nav-overlay glass"
+              initial={{ opacity: 0, x: '100%' }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: '100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              className="mobile-nav-overlay"
             >
               <div className="mobile-links">
                 <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
@@ -701,28 +702,37 @@ const Hero = () => {
         }
 
         .mobile-nav-overlay {
-          position: absolute;
-          top: 100%;
+          position: fixed;
+          top: 0;
           left: 0;
-          width: 100%;
-          border-radius: 0 0 24px 24px;
-          overflow: hidden;
+          width: 100vw;
+          height: 100vh;
+          background: #000;
           z-index: 1000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         .mobile-links {
           display: flex;
           flex-direction: column;
           padding: 30px;
-          gap: 20px;
+          gap: 30px;
           text-align: center;
         }
 
         .mobile-links a {
           color: white;
-          font-size: 1.2rem;
-          font-weight: 600;
+          font-size: 2rem;
+          font-weight: 700;
           text-decoration: none;
+          letter-spacing: -1px;
+          transition: color 0.3s ease;
+        }
+
+        .mobile-links a:active {
+          color: var(--primary-color);
         }
 
         @media (max-width: 480px) {
