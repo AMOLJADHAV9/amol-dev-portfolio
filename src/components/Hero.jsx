@@ -411,7 +411,7 @@ const Hero = () => {
         .hero-body {
           flex: 1;
           display: flex;
-          align-items: center;
+          align-items: center; /* Desktop remains centered */
           padding-top: 100px;
           padding-bottom: 80px;
         }
@@ -674,10 +674,13 @@ const Hero = () => {
           .split-layout { 
             grid-template-columns: 1fr; 
             text-align: center; 
-            gap: 60px; 
-            padding-top: 50px;
+            gap: 40px; 
+            padding-top: 30px;
           }
-          .hero-body { padding-top: 120px; }
+          .hero-body { 
+            padding-top: 100px; 
+            align-items: flex-start; /* Pull content to top on mobile */
+          }
           .hello-row { justify-content: center; }
           .cta-row { 
             display: flex;
