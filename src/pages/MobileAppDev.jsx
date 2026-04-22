@@ -16,9 +16,9 @@ const MobileAppDev = () => {
   ];
 
   const stats = [
-    { label: 'Apps Launched', value: '25+', icon: CheckCircle },
-    { label: 'User Rating', value: '4.8/5', icon: Zap },
-    { label: 'Platform Support', value: 'Both', icon: Globe },
+    { label: 'Apps Launched', value: '10+', icon: CheckCircle },
+    { label: 'Performance', value: 'High', icon: Zap },
+    { label: 'App Support', value: 'iOS & Android', icon: Globe },
   ];
 
   const features = [
@@ -152,7 +152,7 @@ const MobileAppDev = () => {
               { step: '04', title: 'Store Audit', desc: 'Final prep for App Store & Play Store guidelines and submission.' }
             ].map((item, id) => (
               <div key={id} className="roadmap-step">
-                <span className="step-num mono-text" style={{ color: 'rgba(46, 91, 255, 0.2)' }}>{item.step}</span>
+                <span className="step-num mono-text" style={{ color: 'rgba(46, 91, 255, 0.5)' }}>{item.step}</span>
                 <div className="step-content">
                   <h4>{item.title}</h4>
                   <p>{item.desc}</p>
@@ -336,7 +336,7 @@ const MobileAppDev = () => {
         .step-num {
           font-size: 3rem;
           font-weight: 800;
-          color: rgba(255, 59, 46, 0.15);
+          color: rgba(255, 59, 46, 0.45);
           line-height: 1;
           display: block;
           margin-bottom: -15px;

@@ -11,7 +11,7 @@ const About = () => {
 
   const stats = [
     { value: '10', suffix: '+', label: 'Completed Projects' },
-    { value: '95', suffix: '%', label: 'Client satisfaction' },
+    { value: '100', suffix: '%', label: 'Dedicated commitment' },
     { value: '1.5', suffix: '+', label: 'Years of experience' },
   ];
 
@@ -90,8 +90,8 @@ const About = () => {
             <span className="section-label">About me</span>
             <h2 className="title-about">Passionate about <span className="red-word">Building</span> Things</h2>
             <p className="description-p">
-              I am a specialized <strong>Flutter Developer</strong> with a background in
-              high-performance mobile architecture. My journey is defined by a passion for
+              I am a specialized <strong>Full Stack Developer</strong> with a background in
+              high-performance web and mobile architecture. My journey is defined by a passion for
               merging pixel-perfect UI with robust, scalable code. I believe in creating products
               that don't just solve problems, but provide an immersive user experience.
             </p>

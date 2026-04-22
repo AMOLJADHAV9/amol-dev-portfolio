@@ -16,9 +16,9 @@ const ApiDevelopment = () => {
   ];
 
   const stats = [
-    { label: 'API Uptime', value: '99.9%', icon: Activity },
-    { label: 'Response Time', value: '< 200ms', icon: Zap },
-    { label: 'Requests/sec', value: '10k+', icon: Globe },
+    { label: 'API Protocols', value: 'REST/GQL', icon: Activity },
+    { label: 'Performance', value: 'Optimized', icon: Zap },
+    { label: 'Architecture', value: 'Scalable', icon: Globe },
   ];
 
   const features = [
@@ -290,7 +290,7 @@ const ApiDevelopment = () => {
           .step-num {
             font-size: 3rem;
             font-weight: 800;
-            color: rgba(255, 59, 46, 0.15);
+            color: rgba(255, 59, 46, 0.45);
             line-height: 1;
             display: block;
             margin-bottom: -15px;

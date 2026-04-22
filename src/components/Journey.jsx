@@ -17,9 +17,9 @@ const Journey = () => {
       icon: Code2,
     },
     {
-      title: 'Innovation8 Hackathon Finalist',
-      subtitle: 'Recognized for Creative Problem Solving',
-      description: 'Developed a real-time POS solution for street vendors using Flutter and Firebase.',
+      title: 'Innov8 Hackathon Finalist',
+      subtitle: 'Organized by JECRC Jaipur',
+      description: 'Engineered an automated billing and inventory management solution for street vendors, optimized for low-bandwidth environments.',
       icon: Trophy,
     },
     {

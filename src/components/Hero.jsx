@@ -183,7 +183,7 @@ const Hero = () => {
             </motion.h2>
             
             <motion.h1 variants={slideRightVariants} className="hero-headline">
-              Software <br /> Developer
+              Full Stack <br /> Developer
             </motion.h1>
 
             <motion.div variants={fadeInVariants} className="cta-row">

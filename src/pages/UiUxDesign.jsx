@@ -16,9 +16,9 @@ const UiUxDesign = () => {
   ];
 
   const stats = [
-    { label: 'Designs Created', value: '120+', icon: CheckCircle },
-    { label: 'User Satisfaction', value: '99%', icon: Zap },
-    { label: 'Tools Mastered', value: '10+', icon: Globe },
+    { label: 'Designs Delivered', value: '15+', icon: CheckCircle },
+    { label: 'User Focus', value: 'High', icon: Zap },
+    { label: 'Tool of Choice', value: 'Figma', icon: Globe },
   ];
 
   const principles = [
@@ -278,7 +278,7 @@ const UiUxDesign = () => {
           .step-num {
             font-size: 3rem;
             font-weight: 800;
-            color: rgba(255, 59, 46, 0.15);
+            color: rgba(255, 59, 46, 0.45);
             line-height: 1;
             display: block;
             margin-bottom: -15px;

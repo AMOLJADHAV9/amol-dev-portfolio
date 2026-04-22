@@ -16,9 +16,9 @@ const FirebaseIntegration = () => {
   ];
 
   const stats = [
-    { label: 'Sync Speed', value: '< 100ms', icon: Zap },
-    { label: 'Scalability', value: 'Unlimited', icon: Globe },
-    { label: 'Security Score', value: 'A+', icon: Shield },
+    { label: 'Data Sync', value: 'Real-time', icon: Zap },
+    { label: 'Architecture', value: 'Serverless', icon: Globe },
+    { label: 'Security', value: 'Enterprise', icon: Shield },
   ];
 
   const services = [
@@ -273,7 +273,7 @@ const FirebaseIntegration = () => {
           .step-num {
             font-size: 3rem;
             font-weight: 800;
-            color: rgba(255, 59, 46, 0.15);
+            color: rgba(255, 59, 46, 0.45);
             line-height: 1;
             display: block;
             margin-bottom: -15px;

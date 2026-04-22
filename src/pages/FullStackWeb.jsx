@@ -16,9 +16,9 @@ const FullStackWeb = () => {
   ];
 
   const stats = [
-    { label: 'Projects Done', value: '45+', icon: CheckCircle },
-    { label: 'Success Rate', value: '100%', icon: Zap },
-    { label: 'Client Satisfaction', value: '5/5', icon: Globe },
+    { label: 'Web Apps', value: '12+', icon: CheckCircle },
+    { label: 'Stack Mastery', value: 'MERN', icon: Zap },
+    { label: 'Code Quality', value: 'Clean', icon: Globe },
   ];
 
   const stacks = [
@@ -139,7 +139,7 @@ const FullStackWeb = () => {
                 { step: '04', title: 'UAT & Launch', desc: 'User acceptance testing followed by automated production deployment.' }
               ].map((item, id) => (
                 <div key={id} className="roadmap-step">
-                  <span className="step-num mono-text" style={{ color: 'rgba(46, 91, 255, 0.2)' }}>{item.step}</span>
+                  <span className="step-num mono-text" style={{ color: 'rgba(46, 91, 255, 0.5)' }}>{item.step}</span>
                   <div className="step-content">
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>
@@ -308,7 +308,7 @@ const FullStackWeb = () => {
           .step-num {
             font-size: 3rem;
             font-weight: 800;
-            color: rgba(255, 59, 46, 0.15);
+            color: rgba(255, 59, 46, 0.45);
             line-height: 1;
             display: block;
             margin-bottom: -15px;
