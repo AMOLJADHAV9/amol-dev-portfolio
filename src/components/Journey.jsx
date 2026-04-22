@@ -229,7 +229,7 @@ const Journey = () => {
           justify-content: flex-end;
           padding-right: 50%;
           position: relative;
-          margin-bottom: 60px;
+          margin-bottom: 30px;
           width: 100%;
         }
 
@@ -271,8 +271,8 @@ const Journey = () => {
           border-radius: 20px;
         }
 
-        .timeline-item.left .timeline-content { margin-right: 40px; }
-        .timeline-item.right .timeline-content { margin-left: 40px; }
+        .timeline-item.left .timeline-content { margin-right: 20px; }
+        .timeline-item.right .timeline-content { margin-left: 20px; }
 
         .icon-container {
           width: 40px;
