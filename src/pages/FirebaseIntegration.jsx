@@ -347,7 +347,3 @@ const FirebaseIntegration = () => {
 };
 
 export default FirebaseIntegration;
-  );
-};
-
-export default FirebaseIntegration;

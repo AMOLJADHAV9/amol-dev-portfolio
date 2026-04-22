@@ -358,7 +358,3 @@ const ApiDevelopment = () => {
 };
 
 export default ApiDevelopment;
-  );
-};
-
-export default ApiDevelopment;
