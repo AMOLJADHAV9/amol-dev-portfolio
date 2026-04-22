@@ -2,6 +2,7 @@ import React from 'react';
 import ServicePageLayout from '../components/ServicePageLayout';
 import { Smartphone, CheckCircle, Code, Cpu, Layout, Zap, Globe, Shield, Database } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import heroImg from '../assets/mobile-app-dev-temp.png';
 
 const MobileAppDev = () => {
@@ -28,8 +29,13 @@ const MobileAppDev = () => {
   ];
 
   return (
-    <ServicePageLayout 
-      title="Mobile App Development"
+    <>
+      <Helmet>
+        <title>Mobile App Development | Amol Jadhav</title>
+        <meta name="description" content="Professional iOS and Android app development using Flutter and React Native. High-performance, native-feel mobile experiences." />
+      </Helmet>
+      <ServicePageLayout 
+        title="Mobile App Development"
       highlightWord="Development"
       subtitle="Crafting high-performance native and cross-platform mobile experiences that users love."
       icon={Smartphone}
@@ -393,6 +399,7 @@ const MobileAppDev = () => {
         }
       `}} />
     </ServicePageLayout>
+    </>
   );
 };
 
